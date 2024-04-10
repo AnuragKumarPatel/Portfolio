@@ -1,0 +1,97 @@
+@media(max-width:1142px){
+   .container{
+    width: 95%;
+    margin: 0 auto;
+   }
+   .nav-items {
+    display: flex;
+    gap: 1rem;
+    padding: 0px 1em;
+}
+.hero-section{
+    display: block;
+    padding: 2rem;
+}
+.user-image img{
+height: 200px;
+width: 200px;
+
+}
+.user-image{
+padding: 0.5rem;
+display: flex;
+justify-content: center;
+width: 23%;
+margin: 0px auto;
+}
+/* .icon img{
+    height: 50px;
+    width: 50px;
+} */
+.icon-zikzack {
+    top: 1rem;
+}
+/* .icon{
+    display: none;
+} */
+.hero-section-description {
+    margin-top: 1rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.hero-section-sub-heading {
+    font-size: 35px;
+    line-height: 45px;
+}
+.faded-text {
+    bottom: -14.5%;
+}
+/* .box{
+    left: 40%;
+} */
+.project-container {
+    max-width: 98%;
+}
+.project-card {
+    width: 98%;
+    height: 550px;
+}
+#project1,#project2,#project3,#project4{
+    margin-left: 1rem;
+}
+.project-skill-container {
+    width: 98%;
+    /* display: flex;
+    gap: 10px;
+    flex-wrap: wrap; */
+}
+.project-heading {
+    font-size: 20px;
+    font-weight: bold;
+    /* line-height: 3rem; */
+}
+
+element.style {
+}
+.project-content-left {
+    left: 10%;
+}
+.project-content {
+    bottom: 10%;
+    padding: 0%;
+}
+.class-skill {
+    width: 45px;
+}
+.skill-fadetext {
+    /* position: absolute; */
+    /* user-select: none; */
+    font-size: 9em;
+    /* font-style: bold; */
+    /* color: rgb(231, 231, 231); */
+    bottom: -5.5%;
+    right: -3%;
+    /* overflow-y: hidden; */
+}
+}
