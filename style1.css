@@ -1,6 +1,6 @@
-@media(max-width:1142px){
+@media (min-width:500px) and (max-width:1000px){
    .container{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
    }
    .nav-items {
@@ -51,7 +51,9 @@ margin: 0px auto;
     left: 40%;
 } */
 .project-container {
-    max-width: 98%;
+    max-width: 90%;
+    /* display: flex;
+    justify-content: center; */
 }
 .project-card {
     width: 98%;
@@ -61,7 +63,7 @@ margin: 0px auto;
     margin-left: 1rem;
 }
 .project-skill-container {
-    width: 98%;
+    width: 90%;
     /* display: flex;
     gap: 10px;
     flex-wrap: wrap; */
@@ -94,4 +96,54 @@ element.style {
     right: -3%;
     /* overflow-y: hidden; */
 }
+.skill-container{
+    padding: 1rem;
+}
+.mr{
+    display: none;
+}
+.skill-container-right {
+   display: block;
+}
+.hero-section-right
+{
+position: relative;
+margin: auto;
+width: fit-content;
+
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+}
+.user-image{
+padding-left: 7rem;
+padding-right: 7rem;
+}
+#project1{
+    background-image: url(userAsset/edit0.png);
+    width: 30em;
+    height: 30em;
+   
+}
+ #project2{
+    background-image: url(userAsset/edit1.png);
+    width: 30em;
+    height: 30em;
+   
+     /* margin-left: 120px; */
+ }
+ #project3{
+    background-image: url(userAsset/edit23.png);
+    width: 30em;
+    height: 30em;
+ 
+ }
+ #project4{
+    background-image: url(userAsset/edit4.png);
+    /* margin-left: 120px; */
+    width: 30em;
+    height: 30em;
+ }
+
 }

@@ -1,0 +1,275 @@
+@media (min-width:300px) and (max-width:500px) {
+    .container{
+       width: 300px; 
+       margin: 0 auto;
+    }
+ #warapper{
+    overflow-x: hidden;
+ }
+ .logo{
+    width: 30px;
+    height: 15px;
+ }
+ .nav-items{
+   display: flex;
+   justify-content: space-evenly;
+    gap: 1rem;
+     padding: 0 2rem; 
+ }
+ 
+ .logo-text{
+    font-size: 10px;
+    margin-left: -0rem;
+ }
+ .nav-items div{
+    font-size: 15px;
+ }
+ .hero-section{
+   width: 300px;
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   flex-direction: column;
+    gap: 0rem;
+    margin-top: 0 ;
+    padding: 0 ;
+    /* padding: 4rem; */
+
+ }
+ 
+ .hero-section-left{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .faded-text{
+    position: absolute;
+    font-size: 3em;
+    left: 10%;
+    bottom: -15%;
+ }
+.absolute{
+   display: none;
+   
+   /* width: fit-content; */
+}
+.user-image{
+   padding: 0.2rem;
+   filter: grayscale(00.5rem);
+   border-radius: 1px;
+}
+.img{
+   width: 100px;
+   height:100px
+} 
+.role{
+   font-weight: 600;
+   font-size: 15px;
+}
+.hero-section-sub-heading{
+   font-size: 15px;
+   /* height: 50px; */
+   width: 65vw;
+   display: flex;
+   /* justify-content: center; */
+
+}
+.page-header{
+   font-size: 50px;
+}
+.box{
+/* display: none; */
+/* top: 50%; */
+   position: relative;
+  padding: .2rem;
+  /* bottom: 2rem; */
+  margin-bottom: 2em;
+}
+.project-container{
+   max-width: 380px;
+   margin: 0 auto;
+   padding: 1rem 0;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   /* flex-direction: column; */
+
+   gap: 12px;
+}
+#project1,#project2,#project3,#project4{
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 140px;
+   width: 100%;
+}
+#project2,#project4{
+   margin-left: 0;
+}
+.project-skill-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+width: 100%;
+
+gap: 5px;
+line-height: 1rem;
+}
+.class-skill{
+   width: 50px;
+}
+
+.project-heading{
+   font-size: 10px;
+   font-weight: 800;
+   margin-top: -3rem;
+   margin-bottom: -1rem;
+}
+.project-subheading{
+   display: none;
+}
+.project-number{
+   font-size: 100px;
+   display: none;
+}
+.project-number-right{
+   right: -10px;
+   top: -15px;
+   }
+   .project-number-left{
+      /* display: flex; */
+      justify-content: center;
+      
+      left: -5px;
+      top: -15px;
+      }
+.project-content{
+   top: 1%;
+   bottom: 0%;
+}
+.button-group a{
+   /* display: none; */
+   display: none;
+   /* width: 10px;
+   height: 10px; */ 
+}
+.icon-wraper{
+   z-index: 1;
+}
+#btn{
+   width: 90px;
+}
+
+.skill-fadetext{
+   display: none;
+}
+.skill-subHeading{
+   width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  font-size: 1rem;
+
+}
+
+.skill-container-right{
+   display: flex;
+   width: 100vw;
+
+}
+.skills-logo{
+   /* width: 10vw; */
+   /* height: 20px; */
+}
+#skills{
+   width: 100vw;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+}
+.skill-heading{
+   margin-top: 1rem;
+   font-size: 1rem;
+   text-align: center;
+   line-height: 20px;
+
+}
+.caps{
+   font-size: 2rem;
+}
+.skill-container-left{
+   width: 90vw;
+}
+h1,h3{
+   text-align: center;
+}
+.contuctus-heading{
+font-size: 2rem;
+}
+.contactus-sub-heading{
+   font-size: 1.5rem;
+   color: #343d68aa;
+   /* text-transform: capitalize; */
+}
+.form{
+   width: 90%;
+   margin: 0;
+   display: none;
+}
+footer{
+   padding: 1rem;
+}
+.footer-faded-text{
+font-size: 2rem;
+}
+.icon-wraper i{
+   gap: 0.75rem;
+   /* height: 3px; */
+   /* width: 3px; */
+}
+#email{
+   display: block;
+   /* padding: 0.1rem; */
+   /* width: 100px;
+   height: 1.5rem; */
+   /* background-color: darkslateblue; */
+   
+}
+#email span{
+   /* display: block; */
+   padding: 0.3rem; 
+   width: 100px;
+   height: 1.5rem;
+   background-color: rgb(118, 103, 212);
+   border-radius: 0.2rem;
+   box-shadow: 1px 2px 2px 3px  rgb(231, 217, 248);
+   font-weight: 600;
+   
+}
+#project1{
+   background-image: url(userAsset/edit0.png);
+   width: 22rem;
+   height: 20em;}
+#project2{
+   background-image: url(userAsset/edit1.png);
+   width: 22em;
+   height: 20em;
+  
+    /* margin-left: 120px; */
+}
+#project3{
+   background-image: url(userAsset/edit23.png);
+   width: 22em;
+   height: 20em;
+
+}
+#project4{
+   background-image: url(userAsset/edit4.png);
+   /* margin-left: 120px; */
+   width: 22em;
+   height: 20em;
+}
+}
+
+

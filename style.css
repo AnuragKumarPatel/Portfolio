@@ -30,6 +30,8 @@ scroll-behavior: smooth;
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+    
+    
 
 }
 .logo{
@@ -43,7 +45,7 @@ scroll-behavior: smooth;
 
 }
 .nav-items{
-
+   
     display: flex;
     gap: 2rem;
     padding: 0 4em;
@@ -124,7 +126,14 @@ transition: all 3s;
   
 
 }   */
+   #iam{
+    font-weight: 600;
+    color:#690606;
+   }
 .box{
+    display: flex;
+    justify-content: center;
+    border-radius: 0.2rem;
     position: relative;
 color: black;
 background-color: var(--bgOrange);
@@ -136,7 +145,7 @@ cursor: pointer;
 box-shadow: 3px 3px 3px rgb(199, 172, 172);
 z-index: 1;
 border: 3px solid var(--bgOrange);
-font-weight: 500;
+font-weight: 550;
 border: 3px solid transparent;
 }
 .box::before{
@@ -160,6 +169,7 @@ border: 3px solid transparent;
 .hero-section-right
 {
 position: relative;
+
 
 }
 .absolute{
@@ -319,9 +329,7 @@ transform: translateX(0px);
    box-shadow: 0px 0px 40px  #1f1f1f;
 }
 #project1{
-   background-image: url(projects/Project1.png);
-
-}
+   background-image: url(userAsset/new_project0.jpg);}
 #project2{
    background-image: url(projects/Project2.png);
     margin-left: 120px;
@@ -585,13 +593,16 @@ footer{
 }
 .footer-faded-text{
     position: absolute;
-    left: 0;
-    bottom: 0;
+   
+    right: 0;
+    bottom: 2%;
+    /* gap: 3rem; */
     color: #535c87;
     user-select: none;
-    font-size: 5em;
+    font-size: small;
 }
 .link-wraper{
+    z-index: 1;
 display: flex;
 gap: 1.2rem;
 }
@@ -606,4 +617,11 @@ gap: 1.2rem;
 .icon-wraper{
     display: flex;
     gap: 1rem;
+}
+#email{
+    display: none;
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
 }
